@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+background-color: #fbf6f5;
+height: 120vh;
+}
