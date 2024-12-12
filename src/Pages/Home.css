@@ -156,15 +156,24 @@ p {
     }
     .img {
         height: 100px;
-        width: 80px;
+        width: 120px;
     }
-    p {
-        font-size: 14px;
-    }
+    .text {
+    
+        display: flex;
+       }
+       .text p{
+       margin-top: 5px;
+       margin-left: -1px;
+       }
+       p{
+           font-size: 14px;
+           margin-left: -70px;
+       }
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     .category {
         width: auto;
     }
@@ -176,13 +185,24 @@ p {
         font-size: 12px;
     }
     .card {
+        height: 140px;
         width: 120px;
     }
     .img {
         height: 80px;
-        width: 60px;
+        width: 110px;
     }
-    p {
+  
+    .text {
+    
+     display: flex;
+    }
+    .text p{
+    margin-top: 5px;
+    margin-left: -1px;
+    }
+    p{
         font-size: 12px;
+        margin-left: -70px;
     }
 }
